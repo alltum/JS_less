@@ -11,8 +11,8 @@
 <body>
     <script>
         "use strict";
-        alert("Как вас зовут-?");
-        let gr_cel = +prompt("Ведите температуру в градусах Цельсия");
+        let name = prompt("Как вас зовут-?");
+        let gr_cel = +prompt(name + " Введите температуру в градусах Цельсия");
         let gr_far = (9 / 5) * gr_cel + 32;
         console.log(gr_far);
         alert("Температура в Френгейту составит :" + gr_far);
